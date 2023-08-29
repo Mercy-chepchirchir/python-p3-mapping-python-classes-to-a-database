@@ -1,4 +1,5 @@
 import sqlite3
-
+# it establishes connection with the database
 CONN = sqlite3.connect('music.db')
-CURSOR = CONN.cursor()
+# it enables us to interact with the database
+CURSOR = CONN.cursor() 
